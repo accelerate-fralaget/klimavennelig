@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:alpine
+        image: crworkflow1684159953872.azurecr.io/image-workflow-1684159953872:fd3afeb6157212f2cc38bf74cf00b159342b5e72
         ports:
         - containerPort: 80
 ---
